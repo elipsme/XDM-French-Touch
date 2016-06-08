@@ -34,7 +34,7 @@ class T411(Indexer):
     types = ['de.lad1337.torrent']
 
     _apiToken = ''
-    _baseUrl = 'https://api.t411.me'
+    _baseUrl = 'https://api.t411.ch'
 
     def _getUrl(self, path):
         return "%s%s" % (self._baseUrl, path)
